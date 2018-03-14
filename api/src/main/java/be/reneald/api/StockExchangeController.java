@@ -1,17 +1,12 @@
 package be.reneald.api;
 
 import be.reneald.service.StockService;
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.inject.Inject;
 
-@ResponseBody
-@RequestMapping("/stocks")
-@Controller
+@RequestMapping("/stock") // 'All URLs ending in /stock will be handled by this class'
+@RestController // equal to @Controller AND @ResponseBody combined
 public class StockExchangeController {
     private StockService stockService;
 

@@ -14,11 +14,11 @@
 
     <dependencies>
         <dependency>
-            <groupId>be.reneald</groupId>
+            <groupId>be.reneald.springdi</groupId>
             <artifactId>interfaces</artifactId>
         </dependency>
         <dependency>
-            <groupId>be.reneald</groupId>
+            <groupId>be.reneald.springdi</groupId>
             <artifactId>domain</artifactId>
         </dependency>
         <dependency>

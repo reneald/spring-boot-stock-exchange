@@ -44,25 +44,30 @@
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter</artifactId>
+                <artifactId>spring-boot-starter-web</artifactId>
                 <version>1.5.9.RELEASE</version>
             </dependency>
 
             <dependency>
-                <groupId>be.reneald</groupId>
+                <groupId>be.reneald.springdi</groupId>
                 <artifactId>domain</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>be.reneald</groupId>
+                <groupId>be.reneald.springdi</groupId>
                 <artifactId>interfaces</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>be.reneald</groupId>
+                <groupId>be.reneald.springdi</groupId>
                 <artifactId>service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>be.reneald.springdi</groupId>
+                <artifactId>api</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

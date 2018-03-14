@@ -1,12 +1,11 @@
-package be.reneald.jar;
+package be.reneald.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class Application {
-
+@SpringBootApplication(scanBasePackages = {"be.reneald.springdi"})
+public class TestApplication {
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(TestApplication.class, args);
     }
 }

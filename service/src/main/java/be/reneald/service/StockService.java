@@ -4,9 +4,10 @@ import be.reneald.domain.Stock;
 import be.reneald.domain.StockRepository;
 import be.reneald.interfaces.ExternalStockInformationService;
 
+import javax.inject.Named;
 import java.math.BigDecimal;
 
-
+@Named
 public class StockService {
     private ExternalStockInformationService externalStockInformationService;
 
