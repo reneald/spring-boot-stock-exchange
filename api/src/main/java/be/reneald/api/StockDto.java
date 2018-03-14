@@ -1,5 +1,6 @@
 package be.reneald.api;
 
+import be.reneald.domain.StockCurrency;
 import be.reneald.domain.StockPrice;
 
 import java.math.BigDecimal;
@@ -24,7 +25,7 @@ public class StockDto {
         return stockId;
     }
 
-    public StockPrice getStockPrice() {
-        return stockPrice;
+    public StockCurrency getCurrency() {
+        return stockPrice.getCurrency();
     }
 }

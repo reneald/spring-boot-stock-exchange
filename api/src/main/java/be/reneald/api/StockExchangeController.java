@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.inject.Inject;
 
-@RequestMapping("/stock") // 'All URLs ending in /stock will be handled by this class'
+@RequestMapping("/stocks") // 'All URLs ending in /stock will be handled by this class'
 @RestController // equal to @Controller AND @ResponseBody combined
 public class StockExchangeController {
     private StockService stockService;
